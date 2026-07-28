@@ -23,24 +23,6 @@ body:
       placeholder: Which part of the code should be improved?
     validations:
       required: true
-  - type: dropdown
-    id: effort
-    attributes:
-      label: Effort Estimate
-      description: "How long do you expect this to take? Also apply the matching `effort: N` label (1–10) to this issue."
-      options:
-        - "1 — trivial (few hours)"
-        - "2 — very small (< 1 day)"
-        - "3 — small (1 day)"
-        - "4 — small-medium (1–2 days)"
-        - "5 — medium (2–3 days)"
-        - "6 — medium-large (3–4 days)"
-        - "7 — large (4–5 days)"
-        - "8 — very large (1 week)"
-        - "9 — extra large (1–2 weeks)"
-        - "10 — massive (2+ weeks)"
-    validations:
-      required: true
   - type: textarea
     id: acceptance_criteria
     attributes:
